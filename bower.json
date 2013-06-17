@@ -1,0 +1,11 @@
+{
+  "name": "sass-magic",
+  "version": "0.0.1",
+  "main": "build/magic.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+  
+}
