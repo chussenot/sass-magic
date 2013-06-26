@@ -1,0 +1,111 @@
+@include keyframes(perspectiveDown) {
+  from { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateX(0deg);
+  }
+  to { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateX(-180deg);
+  }
+}
+.perspectiveDown { @include experimental(animation-name, perspectiveDown); }
+
+@include keyframes(perspectiveLeft) {
+  from { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateY(0deg);
+  }
+  to { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateY(-180deg);
+  }
+}
+.perspectiveLeft { @include experimental(animation-name, perspectiveLeft); }
+
+@include keyframes(perspectiveRight) {
+  from { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateY(0deg);
+  }
+  to { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateY(-180deg);
+  }
+}
+.perspectiveRight { @include experimental(animation-name, perspectiveRight); }
+
+@include keyframes(perspectiveUp) {
+  from { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateX(0deg);
+  }
+  to { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateX(180deg);
+  }
+}
+.perspectiveUp { @include experimental(animation-name, perspectiveUp); }
+
+@include keyframes(perspectiveDownRetourn) {
+  from { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateX(-180deg);    
+  }
+  to { 
+    @include transform-origin(0 100%);
+    @include perspective(800px);
+    @include rotateX(0deg);
+  }
+}
+.perspectiveDownRetourn { @include experimental(animation-name, perspectiveDownRetourn); }
+
+@include keyframes(perspectiveLeftRetourn) {
+  from { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateY(-180deg);    
+  }
+  to { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateY(0deg);
+  }
+}
+.perspectiveLeftRetourn { @include experimental(animation-name, perspectiveLeftRetourn); }
+
+@include keyframes(perspectiveRightRetourn) {
+  from { 
+    @include transform-origin(100% 0);
+    @include perspective(800px);
+    @include rotateY(180deg);    
+  }
+  to { 
+    @include transform-origin(100% 0);
+    @include perspective(800px);
+    @include rotateY(0deg);
+  }
+}
+.perspectiveRightRetourn { @include experimental(animation-name, perspectiveRightRetourn); }
+
+@include keyframes(perspectiveUpRetourn) {
+  from { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateX(180deg);    
+  }
+  to { 
+    @include transform-origin(0 0);
+    @include perspective(800px);
+    @include rotateX(0deg);
+  }
+}
+.perspectiveUpRetourn { @include experimental(animation-name, perspectiveUpRetourn); }

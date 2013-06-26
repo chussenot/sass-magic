@@ -1,11 +1,23 @@
 {
   "name": "sass-magic",
-  "version": "0.0.1",
-  "main": "build/magic.css",
+  "version": "0.0.5",
+  "main": [ "magic.css",
+    "magic.scss",
+    "components/_animations",
+    "components/_keyframes"
+  ],
+  "author": "Clément Hussenot",
   "ignore": [
     "**/.*",
     "node_modules",
-    "components"
-  ]
-  
+    "docs",
+    ".gitignore",
+    "Gruntfile.coffee",
+    "package.json"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "git@github.com:chussenot/sass-magic.git"
+  }
+
 }

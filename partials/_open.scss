@@ -1,0 +1,175 @@
+@include keyframes(openDownLeft) {
+  from {
+    @include transform-origin(bottom left);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+  to {
+    @include transform-origin(bottom left);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openDownLeft { @include experimental(animation-name, openDownLeft); }
+
+@include keyframes(openDownRight) {
+  from {
+    @include transform-origin(bottom right);
+    @include rotate(0deg);
+    @include animation-timing-function(ease-out);
+  }
+  to {
+    @include transform-origin(bottom right);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openDownRight { @include experimental(animation-name, openDownRight); }
+
+@include keyframes(openUpLeft) {
+  from {
+    @include transform-origin(top left);
+    @include rotate(0deg);
+    @include animation-timing-function(ease-out);
+  }
+  to {
+    @include transform-origin(top left);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openUpLeft { @include experimental(animation-name, openUpLeft); }
+
+@include keyframes(openUpRight) {
+  from {
+    @include transform-origin(top right);
+    @include rotate(0deg);
+    @include animation-timing-function(ease-out);
+  }
+  to {
+    @include transform-origin(top right);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openUpRight { @include experimental(animation-name, openUpRight); }
+
+@include keyframes(openDownLeftRetourn) {
+  from { 
+    @include transform-origin(bottom left);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+  to { 
+    @include transform-origin(bottom left);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+}
+.openDownLeftRetourn { @include experimental(animation-name, openDownLeftRetourn); }
+
+@include keyframes(openDownRightRetourn) {
+  from { 
+    @include transform-origin(bottom right);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+  to { 
+    @include transform-origin(bottom right);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+}
+.openDownRightRetourn { @include experimental(animation-name, openDownRightRetourn); }
+
+@include keyframes(openUpLeftRetourn) {
+  from { 
+    @include transform-origin(top left);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+  to { 
+    @include transform-origin(top left);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+}
+.openUpLeftRetourn { @include experimental(animation-name, openUpLeftRetourn); }
+
+@include keyframes(openUpRightRetourn) {
+  from { 
+    @include transform-origin(top right);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+  to { 
+    @include transform-origin(top right);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+}
+.openUpRightRetourn { @include experimental(animation-name, openUpRightRetourn); }
+
+@include keyframes(openDownLeftOut) {
+  from { 
+    opacity: 1;
+    @include transform-origin(bottom left);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+  to { 
+    opacity: 0;
+    @include transform-origin(bottom left);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openDownLeftOut { @include experimental(animation-name, openDownLeftOut); }
+
+@include keyframes(openUpRightOut) {
+  from { 
+    opacity: 1;
+    @include transform-origin(bottom right);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+  to { 
+    opacity: 0;
+    @include transform-origin(bottom right);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openUpRightOut { @include experimental(animation-name, openUpRightOut); }
+
+@include keyframes(openUpLeftOut) {
+  from { 
+    opacity: 1;
+    @include transform-origin(top left);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+  to { 
+    opacity: 0;
+    @include transform-origin(top left);
+    @include rotate(110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openUpLeftOut { @include experimental(animation-name, openUpLeftOut); }
+
+@include keyframes(openUpRightOut) {
+  from { 
+    opacity: 1;
+    @include transform-origin(top right);
+    @include rotate(0deg);
+    @include experimental(animation-timing-function, ease-out);
+  }
+  to { 
+    opacity: 0;
+    @include transform-origin(top right);
+    @include rotate(-110deg);
+    @include experimental(animation-timing-function, ease-in-out);
+  }
+}
+.openUpRightOut { @include experimental(animation-name, openUpRightOut); }

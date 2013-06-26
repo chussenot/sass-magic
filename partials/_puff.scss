@@ -1,0 +1,27 @@
+@include keyframes(puffIn) {
+  from { 
+    opacity: 0;
+    @include transform-origin(50% 50%);
+    @include scale(2, 2);
+    @include filter(blur(2px));
+  }
+  to { 
+    opacity: 1;
+    @include transform-origin(50% 50%);
+    @include scale(1, 1);
+  }
+}
+.puffIn { @include experimental(animation-name, puffIn); }
+
+@include keyframes(puffOut) {
+  from { 
+    @include transform-origin(50% 50%);
+    @include scale(1, 1);
+  }
+  to { 
+    @include transform-origin(50% 50%);
+    @include scale(2, 2);
+    @include filter(blur(2px));  
+  }
+}
+.puffOut { @include experimental(animation-name, puffOut); }
