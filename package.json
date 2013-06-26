@@ -1,7 +1,7 @@
 {
   "name": "sass-magic",
   "title": "Sass Magic",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/chussenot/sass-magic",
   "description": "pure CSS animations",
   "main": "magic.css",
@@ -20,7 +20,7 @@
     "url": "git://github.com/chussenot/sass-magic.git"
   },
   "bugs": {
-    "url": "https://github.com/drublic/sass-magic/issues"
+    "url": "https://github.com/chussenot/sass-magic/issues"
   },
   "keywords": [
     "css",
@@ -31,8 +31,5 @@
   "author": "Clément Hussenot",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "c7146930966a08a1e2a6e981173b6b3a3f71406b",
-  "bugs": {
-    "url": "https://github.com/chussenot/sass-magic/issues"
-  }
+  "gitHead": "c7146930966a08a1e2a6e981173b6b3a3f71406b"
 }
